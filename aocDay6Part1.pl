@@ -51,4 +51,4 @@ foreach my $key (keys %gridscores){
     }
 }
 
-print "The winner is $winner and their score, including equidistant points but disqualifying infinites, is $highscore.\n";
+print "The winner is $winner and their score, excluding equidistant points and disqualifying infinites, is $highscore.\n";
